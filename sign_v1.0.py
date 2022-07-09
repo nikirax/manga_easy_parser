@@ -6,7 +6,7 @@ import time
 
 def mangalib(username , pas):
     try:
-        browser = webdriver.Chrome("C:\\Users\\User\\Desktop\\project_instagrammbot\\chromedriver\\chromedriver.exe")
+        browser = webdriver.Chrome("chromedriver\\chromedriver.exe")
 
         browser.get('https://mangalib.me/')
         time.sleep(random.randrange(3))
